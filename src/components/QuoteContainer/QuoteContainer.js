@@ -12,9 +12,10 @@ const QuoteCointainer = () => {
   ]
 
   useEffect(() => {
+    let ranNum = Math.floor(Math.random() * Math.floor(quotes.length));
     setCurrentQuote(
-      { quote: quotes[1].quote,
-        speaker: quotes[1].speaker
+      { quote: quotes[ranNum].quote,
+        speaker: quotes[ranNum].speaker
       }
 
     )
