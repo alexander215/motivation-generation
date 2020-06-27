@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import PhotoContainer from '../PhotoContainer/PhotoContainer'
 import { getRoles } from '@testing-library/react'
-import QuoteCointainer from '../QuoteContainer/QuoteCointainer'
+import QuoteContainer from '../QuoteContainer/QuoteContainer'
 
 const PosterContainer = () => {
   // This shows whether a picture has been generated or not
@@ -13,7 +13,7 @@ const PosterContainer = () => {
   let generateButton = <div onClick={() => setGenerate(!generate)}>Generate a poster!</div>;
   if (generate) { 
     displayPhoto =  <PhotoContainer />;
-    displayQuote = <QuoteCointainer />
+    displayQuote = <QuoteContainer />
     generateButton = null;
   }
 
