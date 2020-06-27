@@ -11,15 +11,15 @@ const QuoteCointainer = () => {
       speaker: "Theodore Roosevelt" },
   ]
 
-  useEffect = () => {
+  useEffect(() => {
     setCurrentQuote(
-      { quote: currentQuote[1].speaker,
-        speaker: currentQuote[1].speaker
+      { quote: quotes[1].quote,
+        speaker: quotes[1].speaker
       }
 
     )
-  }
-  
+  });
+
 
   return (
     <div>
