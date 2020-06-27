@@ -19,7 +19,7 @@ const QuoteCointainer = () => {
       }
 
     )
-  });
+  }, []);
 
 
   return (
