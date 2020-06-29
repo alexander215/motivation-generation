@@ -9,6 +9,8 @@ const QuoteCointainer = () => {
       speaker: "Yogi Berra" },
     { quote: "Believe you can and you’re halfway there.",
       speaker: "Theodore Roosevelt" },
+    { quote: "Everything you can imagine is real.",
+      speaker: "Pablo Picasso" },
   ]
 
   useEffect(() => {
